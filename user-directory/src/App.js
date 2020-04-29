@@ -16,12 +16,6 @@ function App() {
           <Col xs={6} md={4}>
             <UserCard />
           </Col>
-          <Col xs={6} md={4}>
-            <UserCard />
-          </Col>
-          <Col xs={6} md={4}>
-            <UserCard />
-          </Col>
         </Row>
       </Container>
     </div>

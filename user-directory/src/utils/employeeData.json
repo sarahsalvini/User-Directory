@@ -1,0 +1,46 @@
+{
+  "UserInfo": [
+    {
+      "name": "Sarah Salvini",
+      "position": "Intern",
+      "phoneNumber": "913-123-4567",
+      "email": "sarah@example.com",
+      "birthday": "9/24/1996"
+    },
+    {
+      "name": "Sam Salvini",
+      "position": "Event Coordinator",
+      "phoneNumber": "913-849-2848",
+      "email": "sam@example.com",
+      "birthday": "12/27/1992"
+    },
+    {
+      "name": "Joel Taylor",
+      "position": "Professional Hunter",
+      "phoneNumber": "816-123-5643",
+      "email": "Joel@example.com",
+      "birthday": "6/21/1986"
+    },
+    {
+      "name": "Emma Hayes",
+      "position": "Nanny",
+      "phoneNumber": "785-289-2904",
+      "email": "emma@example.com",
+      "birthday": "4/2/1991"
+    },
+    {
+      "name": "Lauren Scott",
+      "position": "Realitor",
+      "phoneNumber": "785-242-9482",
+      "email": "lauren@example.com",
+      "birthday": "1/17/1983"
+    },
+    {
+      "name": "Aislinn Clarke",
+      "position": "Hair Stylist",
+      "phoneNumber": "913-848-3534",
+      "email": "aislinn@example.com",
+      "birthday": "10/8/1996"
+    }
+  ]
+}
