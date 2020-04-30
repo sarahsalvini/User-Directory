@@ -1,30 +1,21 @@
 import React from 'react';
-// import UserList from './UserList';
-// import ListGroup from 'react-bootstrap/ListGroup';
-// import Card from 'react-bootstrap/ListGroup';
-// import Col from 'react-bootstrap/Col';
+import Table from 'react-bootstrap/Table';
 
 function UserCard(props) {
   return (
     <div>
-      <p> Name: {props.name}</p>
-      <p> Position: {props.position}</p>
+      <Table striped bordered hover>
+        <tbody>
+          <tr>
+            <td>{props.name}</td>
+            <td>{props.position}</td>
+            <td>{props.number}</td>
+            <td>{props.email}</td>
+            <td>{props.birthday}</td>
+          </tr>
+        </tbody>
+      </Table>
     </div>
-
-    // <Col>
-    //   <Card className="p-3" style={{ width: '18rem' }}>
-    //     <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-    //     <Card.Body>
-    //       <Card.Title>{props.name}</Card.Title>
-    //       <Card.Text>{props.position}</Card.Text>
-    //     </Card.Body>
-    //     <ListGroup variant="flush">
-    //       <ListGroup.Item>Phone Number: {props.number}</ListGroup.Item>
-    //       <ListGroup.Item>Email: {props.email}</ListGroup.Item>
-    //       <ListGroup.Item>D.O.B: {props.birthday}</ListGroup.Item>
-    //     </ListGroup>
-    //   </Card>
-    // </Col>
   );
 }
 
